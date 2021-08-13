@@ -92,7 +92,7 @@ Vue.component('list-item',{
         '    <tr>\n' +
         '      <td colspan="3">\n' +
         '        <div class="stickers cls-52 swiper-container" ref="swipSlider">\n' +
-        '          <div class="swiper-wrapper">\n' +
+        '          <div class="swiper-wrapper" >\n' +
         '            <div class="sticker_s_nizkim_protsentom swiper-slide">Использование собственных средств</div>\n' +
         '            <div class="sticker_s_nizkim_protsentom swiper-slide">3D Secure</div>\n' +
         '            <div class="sticker_s_nizkim_protsentom swiper-slide">Чип</div>\n' +
@@ -117,6 +117,7 @@ Vue.component('list-item',{
             this.slider.slidePrev()
         },
         nextSlide() {
+            console.log(this.slider)
             this.slider.slideNext()
         },
     },
@@ -124,7 +125,7 @@ Vue.component('list-item',{
         this.slider = new Swiper(this.$refs.swipSlider, {
             direction: 'horizontal',
             slidesPerView: 1,
-            slidesPerGroup: 1,
+            slidesPerGroup: 3,
             freeMode: true,
             observer: true,
             mousewheel: {
