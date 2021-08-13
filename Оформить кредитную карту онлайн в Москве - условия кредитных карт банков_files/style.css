@@ -1,0 +1,16 @@
+.choose_region .name-region-in-banner {
+    font-size: 20px;
+    font-weight: 400;
+    text-transform: uppercase;
+    max-width: 440px;
+    color: #383838;
+}
+
+.choose_region {
+    margin-top: -73px;
+}
+
+.choose_region .region_wrapper {
+    background: #fff;
+    max-width: 212px;
+}

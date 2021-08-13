@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[83],{MP2m:function(n,w,i){(window.__NEXT_P=window.__NEXT_P||[]).push(["/widget/whitelabel",function(){return i("NR52")}])},NR52:function(n,w,i){"use strict";i.r(w);var t=i("lG+E");w.default=t.default}},[["MP2m",0,1,2,9,3,4,5,6,7,8,10,11,14,15,16,19,18,23,25,34]]]);
