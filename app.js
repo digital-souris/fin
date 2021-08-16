@@ -1,7 +1,3 @@
-$('#change-link').click(function () {
-    window.history.pushState({page: "another"}, "another page", 'https://' + window.location.href + "/1");
-})
-
 Vue.component('list-item',{
     template: '<div class="list_item_wrapp item_wrap item aos-init aos-animate" data-aos-delay="200" data-aos-duration="500" data-aos-once="false" data-aos="fade-in" :data-id="item.id">\n' +
         '  <table class="list_item">\n' +
